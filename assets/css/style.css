@@ -667,6 +667,18 @@ section {
 	top:1px;
 }
 
+.video_wrapper {
+    position:relative;
+    padding-bottom:56.25%;
+    overflow:hidden;
+}
+.video_wrapper iframe {
+    position:absolute;
+    right:0;
+    top:0;
+    height:100%;
+    width:100%;
+
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
